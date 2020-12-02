@@ -161,7 +161,7 @@ public class Map {
             System.err.println("Junction does not exist");
         }
         else{
-            Roads.remove(jn);
+            Junctions.remove(jn);
             System.out.println("Junction Successfully deleted");
         }
         System.out.println();
