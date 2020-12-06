@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.time.LocalTime; 
 import java.time.LocalDate;
 import java.util.Scanner;
-public class Logop
+public class LogOp
 {
     static ArrayList<Road> Roads = new ArrayList<>();
     static ArrayList<Junction> Junctions = new ArrayList<>();
