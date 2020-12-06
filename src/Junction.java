@@ -12,4 +12,20 @@ public class Junction {
         JunctionType = junctionType;
         Con_Roads = con_Roads;
     }
+
+    public int getJunctionID() {
+        return JunctionID;
+    }
+
+    public String getJunctionName() {
+        return JunctionName;
+    }
+
+    public String getJunctionType() {
+        return JunctionType;
+    }
+
+    public ArrayList<Road> getCon_Roads() {
+        return Con_Roads;
+    }
 }

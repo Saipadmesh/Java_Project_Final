@@ -1,4 +1,4 @@
-package semproject;
+
 
 public class Person {
 	String name;

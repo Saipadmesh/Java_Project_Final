@@ -1,4 +1,4 @@
-package semproject;
+
 import java.math.*;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
@@ -64,7 +64,7 @@ public class User {
 		break;
 		}
 	}
-	public static void main(String args[])
+	/*public static void main(String args[])
 	  {
 		  Scanner s = new Scanner(System.in);
 		  System.out.println("\t\t\t\t\t  _______         __  __ _                             \r\n"
@@ -96,7 +96,7 @@ public class User {
 			  /*call function in login to check if uname exists*/
 			  /*if it does, ask again. make the 
 			   * uname checking in array list as the cond
-			   * for the while loop and keep asking for it.*/
+			   * for the while loop and keep asking for it.*
 			  if(b != null)
 			  {
 //				  Matcher m = p.matcher(b);
@@ -111,5 +111,5 @@ public class User {
 			  else System.err.print("no <3");
 		  }
 		  else System.err.print("no <3");  
-	  }
+	  }*/
 }
