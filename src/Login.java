@@ -56,7 +56,7 @@ public class Login {
 	{
 		for(int i = 0; i < userlist.size(); i++)
 		{
-			if(userlist.get(i).getusn() == chu)
+			if(userlist.get(i).getusn().equals(chu))
 					return i;
 		}
 		return -1;
@@ -65,7 +65,7 @@ public class Login {
 	{
 		int x= search(chu);
 		if(x!=-1){
-			if(userlist.get(x).getpwd() == userlist.get(x).hash(chp))
+			if(userlist.get(x).getpwd().equals(userlist.get(x).hash(chp)))
 			{
 				return true;
 			}
