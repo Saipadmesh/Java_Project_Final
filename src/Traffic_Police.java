@@ -14,4 +14,24 @@ public class Traffic_Police {
         YearsOfExperience = yearsOfExperience;
         Address = address;
     }
+
+    public String getName() {
+        return Name;
+    }
+
+    public int getSalary() {
+        return Salary;
+    }
+
+    public int getAge() {
+        return Age;
+    }
+
+    public int getYearsOfExperience() {
+        return YearsOfExperience;
+    }
+
+    public String getAddress() {
+        return Address;
+    }
 }

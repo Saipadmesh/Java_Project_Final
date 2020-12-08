@@ -10,7 +10,7 @@ public class LogOp
     static ArrayList<Logs> log  = new ArrayList<>();
     static ArrayList<AccidentLog> alog  = new ArrayList<>();
     static ArrayList<TrafficViolationLog> vlog = new ArrayList<>();
-    static ArrayList<Vehicle> vehicle = new ArrayList<>();
+    public static ArrayList<Vehicle> vehicle = new ArrayList<>(); //temporary
 
     public static Road return_road(int RID){
         for(int i=0;i<Roads.size();i++){
@@ -19,6 +19,21 @@ public class LogOp
             }
         }
         return null;
+    }
+
+    public static void addVehicle() {
+        System.out.println("--------------------------");
+        System.out.println();
+        System.out.println("Enter Name : ");
+        Scanner input = new Scanner(System.in);
+        String name = input.next();
+        System.out.println("Enter Registration number : ");
+        String regno = input.next();
+        vehicle.add(new Vehicle(name,regno));
+        System.out.println("Vehicle added successfully");
+        System.out.println();
+        System.out.println("--------------------------");
+
     }
 
     public static Junction return_jn(int JID){
